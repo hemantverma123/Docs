@@ -1,0 +1,567 @@
+﻿C:\Users\Hemant\AppData\Local\Android\sdk\tools\emulator.exe -netdelay none -netspeed full -avd Nexus5
+
+remotedesktopmanagere gmail/hland
+http://simplicable.com/arch/new/technology
+simplelearn.com for learning computer stuff. Sumit reference
+
+---------------------------Fitnesse-------------------------------
+http://localhost:9090/FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ChainTest
+http://johannesbrodwall.com/2008/03/19/some-fitnesse-tricks-classpath-and-debugging/ -Running fitnesse from eclipse
+<!-- This is a comment -->
+
+---------------------------Fitnesse-------------------------------
+
+JSON viewer http://jsonviewer.stack.hu/
+
+ANDROID_HOME = C:\Users\VermaH\android-sdks
+for ADB set the path variable
+Path = “;C:\Users\VermaH\android-sdks\platform-tools;C:\Users\VermaH\android-sdks\tools”
+
+adb install C:\Users\VermaH\workspace-neon\demoproject-selendroid-master\src\main\resources\selendroid-test-app-0.10.0.apk
+
+to build app luancher in android http://code.tutsplus.com/tutorials/build-a-custom-launcher-on-android--cms-21358
+http://www.tutorialspoint.com/csharp/csharp_environment_setup.htm
+C:\Users\VermaH\.m2\repository\io\selendroid\selendroid-standalone\0.15.0\selendroid-standalone-0.15.0.jar
+http://selendroid.io/inspector.html
+http://localhost:4444/inspector
+
+http://johannesbrodwall.com/2008/11/23/making-fitnesse-maven-friendly-now-with-slim/
+You must select one ABI type to create an AVD. If none are available, use the Android SDK Manager to download the ABI 
+ 
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR2/eclipse-jee-kepler-SR2-win32-x86_64.zip
+
+Setup framework
+1. install eclipse
+2. Install plugin for maven eclipse integration 
+http://download.eclipse.org/technology/m2e/releases
+3. Install cucumber eclipse integration
+https://github.com/cucumber/cucumber-eclipse
+download project from the below github location userid hemantverma123 pwd rediff
+https://github.com/cucumber/cucumber-eclipse.git
+4. Update eclipse with the below url to  avoid any errors once it becomes eclipse Mars then we can install cucumber plugin
+http://download.eclipse.org/eclipse/updates/4.5
+
+Just paste URI in Github perspective and it will setup the git repository and download the whole project in the respository from the github server. Import project from the repository to the eclipse as general project, press F5 to refesh and then project would become visible. Covert project to maven project using right click option.
+It will download all the dependcies including surefire report.
+
+--------------Selenium Cucumber JAVA------------------------
+
+Below needs to be configured in the Settings.xml placed in the maven repository location which would be C:\Users\F3pl7zy\.m2
+
+  <proxy>
+
+    <id>proxy</id>
+
+    <active>true</active>
+
+    <protocol>http</protocol>
+
+    <host>proxy1.1dc.com</host>
+
+    <port>8080</port>
+
+  </proxy>
+
+ 
+
+To execute feature through run as command we need to install eclipse plugin using below cucumber update site.
+
+https://cucumber.io/cucumber-eclipse/
+
+Update Site http://cucumber.github.com/cucumber-eclipse/update-site
+
+ 
+
+java_home
+
+m2_home = C:\Apache Software Foundation   (I have kept the latest maven code in this folder)
+
+http://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
+http://download.eclipse.org/technology/m2e/releases/ <http://download.eclipse.org/technology/m2e/releases/>
+https://sukesh15.gitbooks.io/cucumber-jvm-test-framework-/content/underlying_code_-_page_object_pattern/page_classes.html
+
+ 
+http://search.maven.org/#search|ga|1|g%3A%22io.selendroid%22
+
+Github userid hemantverma123
+
+--------------Selenium Cucumber JAVA------------------------
+
+Below needs to be configured in the Settings.xml placed in the maven repository location which would be C:\Users\F3pl7zy\.m2
+
+  <proxy>
+
+    <id>proxy</id>
+
+    <active>true</active>
+
+    <protocol>http</protocol>
+
+    <host>proxy1.1dc.com</host>
+
+    <port>8080</port>
+
+  </proxy>
+
+ 
+
+To execute feature through run as command we need to install eclipse plugin using below cucumber update site.
+
+https://cucumber.io/cucumber-eclipse/
+
+Update Site http://cucumber.github.com/cucumber-eclipse/update-site
+
+ 
+
+java_home
+
+m2_home = C:\Apache Software Foundation   (I have kept the latest maven code in this folder)
+path = %M2_HOME%\bin
+
+http://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
+http://download.eclipse.org/technology/m2e/releases/ <http://download.eclipse.org/technology/m2e/releases/>
+
+ 
+
+https://sukesh15.gitbooks.io/cucumber-jvm-test-framework-/content/underlying_code_-_page_object_pattern/page_classes.html
+
+------------------------------------------------------- 
+
+Cinema URL's
+
+https://portal.uat-newdaycards.com/accounts/houseoffraser/registration
+https://portal.uat-newdaycards.com/accounts/houseoffraser/login
+https://r4cvwb1000.1dc.com/houseoffraser/?sourceCode=3101194AAHOFDAG00150
+
+Application reference number: 0007315017618804072
+tuiparam2/Password12#/112233
+https://portal.uat-newdaycards.com/accounts/tui/login
+https://r5cvwb1001.1dc.com/thomson/quotation?0&sourcecode=3501400AATUIDAG00150
+
+
+--------------Quality Centre-----------
+
+SELECT
+
+AL_DESCRIPTION as Test_plan_Folder,
+
+TS_NAME as Testname,
+
+DS_STEP_NAME as Step_Name,
+
+DS_DESCRIPTION as Description,
+
+DS_EXPECTED as Expected,
+
+DS_USER_01 as Condition_ID,
+
+TS_USER_04 as Application,
+
+TS_Status as Status,
+
+TS_TEST_ID as Test_ID,
+
+TS_USER_21 as User_Group,
+
+TS_RESPONSIBLE as Designer,
+
+TS_DESCRIPTION as Details_DESCRIPTION,
+
+TS_User_17 as Test_Type,
+
+TS_User_05 as Application_Domain,
+
+TS_Path as Subject_Path
+
+ 
+
+FROM DESSTEPS, TEST, ALL_LISTS
+
+WHERE DS_TEST_ID = TS_TEST_ID
+
+AND  AL_ITEM_ID = TS_SUBJECT
+
+AND TS_SUBJECT = ALL_LISTS.AL_ITEM_ID
+
+--AND TS_TEST_ID =  121
+
+AND AL_DESCRIPTION LIKE '%Admin Treansactions%'
+
+Funtion points
+
+http://alvinalexander.com/FunctionPoints/
+ 
+
+total funtion points = unadjusted fp + unadjusted data funtion points
+
+unadjusted fp = file transaction reference + data elelment transaction
+
+adjusted data points = RET's points
+
+Value adjustment factor = formula based on env factor based on a standard list which takes value 0-5 for 14 factors thus max value can be 0-70 and it will adjust the funtion points max by 35%
+
+VAF = (TDI*0.01) + 0.65
+
+adjusted functions points = unadjusted fp * VAF
+
+total efforts = total fp * complexit factor for the language e.g. java = 10.6
+
+it will efforts in hrs
+
+https://en.wikipedia.org/wiki/Use_Case_Points - for estimation based on use cases
+
+Agile estimation techniques
+
+https://help.rallydev.com/sizing-and-estimates
+1. user stroy points and story value points. Story value points decides the prority of the story to be included in relevant iteration.
+
+2. divide value points/story points to get the prority to build the 1st itreation.
+
+3. Stories are planced on fiboneci chart to get the relevant points based on the votes for efforts from the developer unanimously . Fiboneci series as num(n+1)/num(n) = 1.6 in fibonecci numbers so more accurate
+
+4. iterations are build on based on velocity which is calculated story points/productivity factor
+
+5. all items in different iterations should give same velocity
+
+-----------------------------java--------------------------------------
+In Junit Mockito mocks a class. We don't need to write a class as it instanitate a class by mocking it and sets (hardcoded) this  class's object. It is useful to test third party classes or software.
+Powermoke is used to test finalise classes where it can mock a object of the finalise classes. Finalise classes can not be inherited by other classes.
+Spring frame work is used to write web services and other server side programming and it supports many interfaces and modules to integrate with database, xml, json, queues etc.
+Serilizabe interface  is used to  seralize the objects to make them communicate outside of 1 VM to other interfaces such as network, queues or databases etc. It is implemented by all output stream classes by default.
+
+-----------------------------java--------------------------------------
+
+--------------------Selenium--------------------------
+Add below in eclipse.ini file if eclipse is not able to connect to the internet for the software update.
+-Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclient4
+Android studio sdk folder C:\Users\VermaH\AppData\Local\Android\Sdk
+Failed to install Intel HAXM. For details, please check the installation log: "C:\Users\VermaH\AppData\Local\Android\Sdk\extras\intel\Hardware_Accelerated_Execution_Manager\haxm_silent_run.log"
+HAXM installation failed. To install HAXM follow the instructions found at: https://software.intel.com/android/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windowsInstaller log:
+=== Logging started: 11/05/2016  16:06:08 ===
+Error 1925. You do not have sufficient privileges to complete this installation for all users of the machine. Log on as administrator and then retry this installation.
+=== Logging stopped: 11/05/2016  16:06:08 ===
+
+https://github.com/googlesamples/android-ActionBarCompat-Basic/
+http://selendroid.io/quickStart.html
+Ctrl+Shift+T to see the details of class in jar file
+Cucumber - Tags are executed in the alphabatical order only.
+
+--------------------Selenium--------------------------
+proxy.paypoint.com
+	<proxy>
+      <id>default</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>10.255.11.20</host>
+      <port>8080</port>
+	  <username>PAYPOINT\vermah</username>
+	  <password>Agra@456</password>
+      <nonProxyHosts>192.*|10.*|mysite.paypoint.com|sharepoint.paypoint.com|project.paypoint.com|k2workspace.paypoint.com|bi.paypoint.com|reports.paypoint.com|smtp.paypoint.com|5.79.9.45|reporting.paypoint.com|213.167.69.61|pnlvspr3028.paypoint.com|pnlvspr3029.paypoint.com|webseriesconsole.paypoint.com</nonProxyHosts>
+    </proxy>
+
+----------------------Selendroid--------------------------------
+java -jar selendroid-standalone-0.17.0-with-dependencies.jar -app selendroid-test-app-0.17.0.apk
+java -jar selendroid-standalone-0.15.0.jar -app C:\Users\VermaH\workspace-neon\demoproject-selendroid-master\src\main\resources\selendroid-test-app-0.10.0.apk
+http://<username>:<password>@<server>:<port>
+emulator.exe -avd "hemant" -http-proxy "http://PAYPOINT\vermah:Agra1234@10.255.11.20:8080"
+emulator.exe -avd "Nexus_5X_API_23" -http-proxy "http://PAYPOINT\vermah:Agra1234@10.255.11.20:8080"
+----------------------Selendroid--------------------------------
+
+DH and EEC are key exchange algorithm which work with as part other cryptiographic algorithm like RC4, RSA, DES(digital encryption system), 3DES(3 56 bits keys are used instead of 1 as in DES), RSA(three surnames) and PGP (Pretty Good Privacy algorithm for hard disck encryption). It uses session key to encrypt the data using symmetric algorithm(same key for encryption and decryption) where public and private keys are using assymetric algorithm(different 2 keys for encryption and decryption). Keys are passed with message but only software knows where to look for the kyes in the whole set of scrambled data.
+PKI is complete security infrasturcture using nework, servers and firewalls etc.
+There are different encryption software to encrypt the samll or big size of data based on their performance and the way they encrypt the data.
+Brute force is the technique to hack the algorithm and finout the key by using all possible combinations e.g for 56 bit keys there would be 2(power56) combinations.
+E is the mostly used word in english and T is the second one hence pattern can be found after scanning the E and T to get their corresponding keys. THE word can also be used to find these patterns.
+NSMM(network security module managere) encrypts the data by using very weak algorithm and keeps keys in the files so shoul not be used and disabled.
+Message digest and hash code are one way of encryption and works as finger prints of the data. Software publisher puts this on their website so that it may be matched while downloading to find out if any compromise has been attempted on the software(e.g. insertion of the code where it could download or send some private information to the unauthorised destination).
+
+-------------------Jmeter-------------------------------
+JMX file can be opened after installing JMeterPlugins-Standard-1.4.0.zip as it was using performance graph. options>Plugin manager can be used to install various plugins. https://jmeter-plugins.org/wiki/PluginsManager/
+-------------------Jmeter-------------------------------
+
+Funtion points
+
+http://alvinalexander.com/FunctionPoints/
+ 
+
+total funtion points = unadjusted fp + unadjusted data funtion points
+
+unadjusted fp = file transaction reference + data elelment transaction
+
+adjusted data points = RET's points
+
+Value adjustment factor = formula based on env factor based on a standard list which takes value 0-5 for 14 factors thus max value can be 0-70 and it will adjust the funtion points max by 35%
+
+VAF = (TDI*0.01) + 0.65
+
+adjusted functions points = unadjusted fp * VAF
+
+total efforts = total fp * complexit factor for the language e.g. java = 10.6
+
+it will efforts in hrs
+
+https://en.wikipedia.org/wiki/Use_Case_Points - for estimation based on use cases
+
+Agile estimation techniques
+
+https://help.rallydev.com/sizing-and-estimates
+1. user stroy points and story value points. Story value points decides the prority of the story to be included in relevant iteration.
+
+2. divide value points/story points to get the prority to build the 1st itreation.
+
+3. Stories are planced on fiboneci chart to get the relevant points based on the votes for efforts from the developer unanimously . Fiboneci series as num(n+1)/num(n) = 1.6 in fibonecci numbers so more accurate
+
+4. iterations are build on based on velocity which is calculated story points/productivity factor
+
+5. all items in different iterations should give same velocity
+
+COSMIC(Common Software Measurement International Consortium), cocomo(Constructive Cost Model ) models are software estimation model. Function points are to get the size of the software based on five parameters outputs, inquiries, inputs, internal files, and external interfaces.
+
+ 
+--------------------------Nottingham--------------------------------------------
+
+
+textpad insert date time https://stackoverflow.com/questions/27950710/in-notepad-how-can-i-insert-the-current-date-and-time
+http://javaarm.com/file/apache/Hadoop/books/Hadoop-The.Definitive.Guide_4.edition_a_Tom.White_April-2015.pdf
+Edureka
+https://www.edureka.co/
+User Id – Satyavir_chaudhary@yahoo.com
+Pwd – System@32
+
+DataCamp
+https://www.datacamp.com/home
+User Id – satya.chaudhary@gmail.com
+Pwd – System@32
+
+Selenium Framework https://www.programcreek.com/java-api-examples/index.php?source_dir=JFramework-master/Core/src/main/java/com/framework/driver/factory/FireFoxDriverBuilder.java
+
+Big Data https://www.guru99.com/big-data-testing-functional-performance.html  tools Talend, Datameer MapReduce to HIVEQL
+
+C:\Users\brahv\eclipse-workspace\UoNUIAutomation\testng.xml
+D:>java -cp "C:/Users/brahv/eclipse-workspace/UoNUIAutomation" org.testng.TestNG testng.xml
+java -cp C:\Users\brahv\eclipse-workspace\UoNUIAutomation\target\uiAutomation-0.0.2.jar cs.test.admissions.TC005_MyNott_UK_AllApplicants
+testng-6.10.jar
+java -cp ".: C:/Users/brahv/.m2/repository/*"  org.testng.TestNG testng.xml
+
+M2_HOME	C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven3.5.2
+MAVEN_HOME	C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven3.5.2
+JAVA_HOME	C:\Program Files\Java\jdk1.8.0_131
+
+Jenkins https://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.html
+http://localhost:8080/
+NCH Software video recording software
+
+https://licensekeys.org/microsoft-office-2016-product-key-free/
+https://www.pcworld.com/article/246040/software/how-to-find-your-windows-or-office-product-key.html
+
+C:\>tasklist  = will show process name with pid
+netstat -aon |findstr 3000  will show pid running on port number
+Taskkill /PID 26356 /F
+TASKKILL /IM chrome.exe /F 
+TASKKILL /IM geckodriver.exe /F 
+TASKKILL /IM Teams.exe /F 
+
+eclipse shortcuts
+F3 open declaration
+format ctrl+shift+F
+sysout or syserr +ctrl+space = System.out.println
+ctrl+shift+O (organize import)
+ctrl+Shift+L to see all the shortcuts 
+alt+Shift+M = extract method outside
+ctrl+Shift+U = see all the occurances of the variable
+
+------------Selenium Grid------------------
+http://toolsqa.com/selenium-webdriver/testng-listeners/
+
+https://www.youtube.com/watch?v=LzKMA32yml0
+http://www.seleniumhq.org/docs/07_selenium_grid.jsp
+java -jar selenium-server-standalone-3.6.0.jar -role hub -port 4441
+java -Dwebdriver.chrome.driver=C:\Users\brahv\eclipse-workspace\UoNUIAutomation\drivers\geckodriver.exe -jar selenium-server-standalone-3.6.0.jar -role node  -hub http://localhost:4441/grid/register -browser browserName=firefox -port 5555
+java -Dwebdriver.ie.driver="C:\Users\brahv\eclipse-workspace\UoNUIAutomation\drivers\IEDriverServer.exe" -jar selenium-server-standalone-3.6.0.jar -role node  -hub http://localhost:4441/grid/register -maxSession 10 -browser "browserName=iexplorer,platform=WINDOWS" -port 5556
+java -jar selenium-server-standalone-3.6.0.jar -role node  -hub http://localhost:4441/grid/register -browser browserName=chrome -port 5557  //in this case path env variable needs to be set with the path of chromedriver
+java -Dwebdriver.chrome.driver=C:\Users\brahv\eclipse-workspace\UoNUIAutomation\drivers\chromedriver.exe -jar selenium-server-standalone-3.6.0.jar -role node  -hub http://localhost:4441/grid/register -browser browserName=chrome -port 5557
+
+Now run your test in the eclipse as init() in the TestBase class takes care of grid mode. Do set the gridmode and browser parameters in your config file.
+
+For servlets to generate logs at node level
+http://localhost:4441/grid/console
+http://localhost:4441/grid/admin/AllNodes
+java -cp *:. org.openqa.grid.selenium.GridLauncher -role hub -servlets org.openqa.demo.AllNodes
+java -cp *:. org.openqa.grid.selenium.GridLauncher -role node -hub http://localhost:4444/grid/register -servlets org.openqa.demo.AllNodes
+via http://xxx:5555/extra/NodeLog
+
+------------Selenium Grid------------------
+
+Docker user hemantverma/hlandline
+ThinkPad T470p Part No.20J6CTO1WW Subtotal:£1,472.87 Instant Savings:£259.92
+
+https://github.com/graphcool/chromeless
+
+Samsung S27F350FHU Full HD LED Monitor, 27"
+LENOVO IdeaPad 720s-14IKB 14" Laptop - Silver
+LENOVO Yoga 720-13IKB 14" 2 in 1 - Copper
+
+Greenshot for the screenshots
+S:\PS\Registrars\Project Transform Testing\TestAutomation\Hemant
+
+Grafana username hpaypoint/hlandline
+
+Apex.run is used to deploy to the AWS from your machine. Install it from the site. aws configure command
+https://www.youtube.com/watch?v=u7spDymJqmc#t=294.188326
+https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ
+
+NPMJS.com user hemantverma/hlandline
+https://hook.io/login hpaypoint hlandline
+
+AWS account hemantverma@outlook.com/hlandline
+Sign-in URL: https://279535713722.signin.aws.amazon.com/console
+User name: hemant
+Access Key ID: AKIAIJAQG7CA2R3366GA
+Secret Access Key: 8SyJWds8OeZe6dE9QR1MtsFq4Odse61XjgUr/F4et
+
+Lambda function Sonny - API Proxy setting is must to use queryStringParameters. To test the API parameters are being passed as json object so looks like url parameters are convered to json object for AWS.
+Randomaize function uses entry object in the background to communicate.
+
+Account ID or alias 309257428324
+username:
+sonny.martin@nottingham.ac.uk
+password
+suser79aga
+
+----------------------javascript------------------------------------
+below can be run directly in the firefox console and will print all options in the dropdown
+var x = document.getElementById("CIBAA_SUPQ2_STG_TEXT1$3");
+var txt = "";
+var i;
+for (i = 0; i < x.length; i++) {
+    txt = txt + x.options[i].text + "   " + x.options[i].value +"\n" ;
+}
+
+document.getElementById("CIBAA_PERDT_STG_COUNTRY$0").options[1].value;
+"AFG"
+document.getElementById("CIBAA_PERDT_STG_COUNTRY$0").options[1].text;
+"Afghanistan"
+
+document.getElementById("CIBAA_PERDT_STG_COUNTRY$0").options[244].outerHTML;
+"<option value="USA">United States</option>"
+
+document.getElementById("CIBAA_PERDT_STG_COUNTRY$0").value="USA";
+        
+
+		
+		((JavascriptExecutor) driver).executeScript("return s.evarx;");
+window.frames['ptifrmtgtframe'].contentDocument.getElementById('UN_PRG_CAL_SRCH_EMPLID');
+.//*[@name = 'UN_PRG_CAL_SRCH_EMPLID']
+//*[text()[contains(.,'Term')]]
+//*[@id[contains(.,"user")]]
+.//*[@id='ICTAB_2'][@role='tab']
+.//*[text()[contains(.,'APT Tree')]]/parent::*[@role='tab']
+//*[text()[contains(.,'No matching records found')]]/parent::*/following-sibling::*/descendant::*/*[@id="#ICOK"]
+
+[attribute^=value]	a[href^="https"]	Selects every <a> element whose href attribute value begins with "https"	3
+[attribute$=value]	a[href$=".pdf"]	Selects every <a> element whose href attribute value ends with ".pdf"	3
+[attribute*=value]	a[href*="w3schools"]	Selects every <a> element whose href attribute value contains the substring "w3schools"
+*[id^="user"] select id starting with user using css selector
+
+outerHTML
+<img src="/cs/csregr/cache/PT_PROMPT_LOOKUP_UKE_1.gif" alt="Look up Empl ID" title="Look up Empl ID (Alt+5)" id="UN_PRG_CAL_SRCH_EMPLID$prompt$img" name="UN_PRG_CAL_SRCH_EMPLID$prompt$img" border="0" align="absmiddle">
+by ID
+//*[@id="UN_PRG_CAL_SRCH_EMPLID$prompt$img"]
+by CSS
+#UN_PRG_CAL_SRCH_EMPLID\24 prompt\24 img
+
+18025100
+
+//*[@id="SEARCH_RESULT1"]
+
+PTSRCHRESULTS0
+
+new Actions(driver).moveToElement(StageOfStudy).perform();   //send focus to the element
+
+//*[text()[contains(.,'Student Program Details')]]
+.//*[@id='win0div$ICField1']/table/tbody/tr[1]/td
+
+Reading values from WebTable
+http://toolsqa.com/selenium-webdriver/handle-dynamic-webtables-in-selenium-webdriver/
+
+Selenium hooks
+http://startingwithseleniumwebdriver.blogspot.co.uk/2015/12/hooks-and-tags-on-cucumber-jvm.html
+
+https://docs.aws.amazon.com/lambda/latest/dg/java-context-object.html
+
+Jenkin username hemant password Place123(with A)
+Eclipse SSH KeyManagement Passphrase Place123(with A)
+http://rogerdudler.github.io/git-guide/
+
+Key on Git client
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAg4RFvwlC34uDwzZaznO/6jz1ZsC99v1IyDG6tk4kOj+Ind/NXN3euoJ2YXtWvaf2yESXPgn1JXhNSGeGM4K7SeLoMAeet9po0hQhpA5onxwWtGkHh8Llz/tBXU3fSIkk9Rp4PTN+Ijyku1MvpaLezGLCAxkeTqrwMpHAe/vrYIRDlaI75zJy1uG/8nzdYhIJTRJYskAdNiyO1FW541+RuCUygyHUFenzTYT4RTyLcBZ4+7sQwnc7KTcTDwfRYYd9vjjCxJqRtqugYQzzxUUmNhWmOZSBrnpT01KxHEC15XL+o8ot0oTAIzW/SQ4wz8bpZiY9bZnmU3gqfYiy3UG7 brahv@LBRN62693
+
+Uploading eclipse-projects-to-github
+https://stackoverflow.com/questions/17552457/how-do-i-upload-eclipse-projects-to-github
+
+	
+Here is a step by step video of uploading eclipse projects to github
+
+https://www.youtube.com/watch?v=BH4OqYHoHC0
+
+Right click on your eclipse project -> Team -> Share project
+Choose git from the list shown; check the box asking create or use repository -> click on create repository and click finish. - This will create a local git repo. (Assuming you already have git installed )
+Right click on project -> Team -> Commit - Select only the files you want to commit and click on Commit. - Now the files are committed to your local repo.
+Go to git repositories view in eclipse ( or Team -> Show in repositories View)
+Expand the git repo of your project and Right click on Remotes -> Create Remote
+Remote name will appear as origin, select 'Configure Push' Option and click ok
+In the next dialog, click on change next to URI textbox and give your git url, username, password and click on 'Save and Push'. This configures git Push.
+For configuring Fetch, go to Git Repositories -> Remote -> Configure Fetch -> Add -> Master Branch -> Next -> Finish -> Save and Fetch
+For configuring Master Branch, Branch -> Local -> Master Branch -> Right click and configure branch -> Remote: origin and Upstream Branch : refs/heads/master -> click ok
+On refreshing your repo, you will be able to see the files you committed and you can do push and pull from repo.
+
+git init
+git add . (To add all the files)
+git commit -m "first commit"
+git remote add origin git@github.com:hemantverma123/UoNUIAutomation.git
+git push -u origin master
+
+
+https://code.tutsplus.com/tutorials/real-time-chat-with-nodejs-socketio-and-expressjs--net-31708 simple chat application using nodejs
+javascript plnkr.co or jsfiddle.com to create javascript
+Facebook react website for dynamic webpages 
+
+AWS installation error on eclipse for RDS
+Details: Launch the new software installer in Eclipse (Help -> Install New Software...)
+Add on the DTP repository site (click 'Add' and I installed from this site: Link: http://download.eclipse.org/datatools/updates/ and name it something like "DTP")
+As I wanted the latest version of DTP so I selected the DTP 1.10.0 Extender SDK (Includes source and JavaDocs) If you want to see quickly what versions of DTP exist, go here: Link: http://eclipse.org/datatools/downloads.php as ZachM pointed to above.
+
+awscli
+lambda-function-bucket-eu-west-1-1502382573097
+elasticbeanstalk-eu-west-1-279535713722
+aws cloudformation package --template-file example.yaml --output-template-file serverless-output.yaml --s3-bucket elasticbeanstalk-eu-west-1-279535713722
+aws cloudformation deploy --template-file serverless-output.yaml --stack-name hvStack --capabilities CAPABILITY_IAM
+
+-----------------Jmeter-------------------------------
+Download plugins-manager.jar and put it into lib/ext directory, then restart JMeter.
+https://jmeter-plugins.org/downloads/all/
+Plugin Manager should be available under options menu then.
+
+-----------------MongoDB-------------------------------
+https://github.com/mongodb/mongo-java-driver/tree/2.13.x/src/examples/example
+https://docs.mongodb.com/manual/reference/operator/query/regex/   for the queries
+db.createUser({ "user": "firstuser", "pwd": "first",roles: [{ role: "readWrite", db: "testdb" }]})
+db.getUser("firstuser")
+AuthenticationFailed: MONGODB-CR credentials missing in the user document
+
+----------------Tomcat------------------------
+To run servelet tomcat defines filesturctre so create project folder under webapps and then web.xml file will define all the mappings between the URL and servelt to be run. All servlet and java programs should be kept under classes folder.
+C:\apache-tomcat-9.0.0.M26\webapps\examples\WEB-INF\classes
+https://www.youtube.com/watch?v=bd50C6XUnFw
+To run tomcat9 through eclipse just delete the server and add it again in the servers tab. It will create all necessary files once again in the conf folder.
+For webservice use EclipseEE not Eclisep for developers. axis2-1.7.6-bin needs to be installed for webservice and then need to be added in the eclipse under preference window for the webservice.
+Install axis2-eclipse-service-plugin-1.7.6
+xmlschema-core-2.2.1 will have to be copied under WEB-INF/lib folder for java.lang.NoClassDefFoundError: org/apache/ws/commons/schema/resolver/URIResolver error. This file is not copied itself  while setting Axis2.
+https://www.youtube.com/watch?v=lgY0pLadraE&list=FLDafhrmknRgIN2AisVWUbfw - Full tutorial
+
+---------------------------------Scala---------------------------------
+https://github.com/jqno/selenium-scala-java-demo
+programcreek.com hotmail/hshefaliNHS
+---------------------------------------------Nottingham---------------------------------------------------------------
