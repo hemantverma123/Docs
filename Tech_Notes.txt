@@ -1,6 +1,5 @@
 ﻿C:\Users\Hemant\AppData\Local\Android\sdk\tools\emulator.exe -netdelay none -netspeed full -avd Nexus5
 
-remotedesktopmanagere gmail/hland
 http://simplicable.com/arch/new/technology
 simplelearn.com for learning computer stuff. Sumit reference
 
@@ -80,11 +79,10 @@ http://www.mkyong.com/maven/how-to-install-maven-in-windows/
 
 http://download.eclipse.org/technology/m2e/releases/ <http://download.eclipse.org/technology/m2e/releases/>
 https://sukesh15.gitbooks.io/cucumber-jvm-test-framework-/content/underlying_code_-_page_object_pattern/page_classes.html
-
  
 http://search.maven.org/#search|ga|1|g%3A%22io.selendroid%22
 
-Github userid hemantverma123
+
 
 --------------Selenium Cucumber JAVA------------------------
 
@@ -325,15 +323,9 @@ COSMIC(Common Software Measurement International Consortium), cocomo(Constructiv
 
 textpad insert date time https://stackoverflow.com/questions/27950710/in-notepad-how-can-i-insert-the-current-date-and-time
 http://javaarm.com/file/apache/Hadoop/books/Hadoop-The.Definitive.Guide_4.edition_a_Tom.White_April-2015.pdf
-Edureka
-https://www.edureka.co/
-User Id – Satyavir_chaudhary@yahoo.com
-Pwd – System@32
 
 DataCamp
 https://www.datacamp.com/home
-User Id – satya.chaudhary@gmail.com
-Pwd – System@32
 
 Selenium Framework https://www.programcreek.com/java-api-examples/index.php?source_dir=JFramework-master/Core/src/main/java/com/framework/driver/factory/FireFoxDriverBuilder.java
 
@@ -394,7 +386,6 @@ via http://xxx:5555/extra/NodeLog
 
 ------------Selenium Grid------------------
 
-Docker user hemantverma/hlandline
 ThinkPad T470p Part No.20J6CTO1WW Subtotal:£1,472.87 Instant Savings:£259.92
 
 https://github.com/graphcool/chromeless
@@ -415,21 +406,8 @@ https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ
 NPMJS.com user hemantverma/hlandline
 https://hook.io/login hpaypoint hlandline
 
-AWS account hemantverma@outlook.com/hlandline
-Sign-in URL: https://279535713722.signin.aws.amazon.com/console
-User name: hemant
-Access Key ID: AKIAIJAQG7CA2R3366GA
-Secret Access Key: 8SyJWds8OeZe6dE9QR1MtsFq4Odse61XjgUr/F4et
-
 Lambda function Sonny - API Proxy setting is must to use queryStringParameters. To test the API parameters are being passed as json object so looks like url parameters are convered to json object for AWS.
 Randomaize function uses entry object in the background to communicate.
-
-Account ID or alias 309257428324
-username:
-sonny.martin@nottingham.ac.uk
-password
-suser79aga
-
 ----------------------javascript------------------------------------
 below can be run directly in the firefox console and will print all options in the dropdown
 var x = document.getElementById("CIBAA_SUPQ2_STG_TEXT1$3");
@@ -495,8 +473,6 @@ Jenkin username hemant password Place123(with A)
 Eclipse SSH KeyManagement Passphrase Place123(with A)
 http://rogerdudler.github.io/git-guide/
 
-Key on Git client
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAg4RFvwlC34uDwzZaznO/6jz1ZsC99v1IyDG6tk4kOj+Ind/NXN3euoJ2YXtWvaf2yESXPgn1JXhNSGeGM4K7SeLoMAeet9po0hQhpA5onxwWtGkHh8Llz/tBXU3fSIkk9Rp4PTN+Ijyku1MvpaLezGLCAxkeTqrwMpHAe/vrYIRDlaI75zJy1uG/8nzdYhIJTRJYskAdNiyO1FW541+RuCUygyHUFenzTYT4RTyLcBZ4+7sQwnc7KTcTDwfRYYd9vjjCxJqRtqugYQzzxUUmNhWmOZSBrnpT01KxHEC15XL+o8ot0oTAIzW/SQ4wz8bpZiY9bZnmU3gqfYiy3UG7 brahv@LBRN62693
 
 Uploading eclipse-projects-to-github
 https://stackoverflow.com/questions/17552457/how-do-i-upload-eclipse-projects-to-github
@@ -563,5 +539,4 @@ https://www.youtube.com/watch?v=lgY0pLadraE&list=FLDafhrmknRgIN2AisVWUbfw - Full
 
 ---------------------------------Scala---------------------------------
 https://github.com/jqno/selenium-scala-java-demo
-programcreek.com hotmail/hshefaliNHS
 ---------------------------------------------Nottingham---------------------------------------------------------------
