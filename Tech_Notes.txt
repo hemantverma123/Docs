@@ -35,7 +35,7 @@ Setup framework
 http://download.eclipse.org/technology/m2e/releases
 3. Install cucumber eclipse integration
 https://github.com/cucumber/cucumber-eclipse
-download project from the below github location userid hemantverma123 pwd rediff
+
 https://github.com/cucumber/cucumber-eclipse.git
 4. Update eclipse with the below url to  avoid any errors once it becomes eclipse Mars then we can install cucumber plugin
 http://download.eclipse.org/eclipse/updates/4.5
@@ -397,13 +397,13 @@ LENOVO Yoga 720-13IKB 14" 2 in 1 - Copper
 Greenshot for the screenshots
 S:\PS\Registrars\Project Transform Testing\TestAutomation\Hemant
 
-Grafana username hpaypoint/hlandline
+
 
 Apex.run is used to deploy to the AWS from your machine. Install it from the site. aws configure command
 https://www.youtube.com/watch?v=u7spDymJqmc#t=294.188326
 https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ
 
-NPMJS.com user hemantverma/hlandline
+
 https://hook.io/login hpaypoint hlandline
 
 Lambda function Sonny - API Proxy setting is must to use queryStringParameters. To test the API parameters are being passed as json object so looks like url parameters are convered to json object for AWS.
@@ -469,7 +469,7 @@ http://startingwithseleniumwebdriver.blogspot.co.uk/2015/12/hooks-and-tags-on-cu
 
 https://docs.aws.amazon.com/lambda/latest/dg/java-context-object.html
 
-Jenkin username hemant password Place123(with A)
+
 Eclipse SSH KeyManagement Passphrase Place123(with A)
 http://rogerdudler.github.io/git-guide/
 
